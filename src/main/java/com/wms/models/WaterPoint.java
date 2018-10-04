@@ -13,10 +13,10 @@ public class WaterPoint {
     String longitude;
     String capacity;
 
-    public waterPoint() {
+    public WaterPoint() {
     }
 
-    public waterPoint(String name, String location, String latitude, String longitude, String capacity) {
+    public WaterPoint(String name, String location, String latitude, String longitude, String capacity) {
         this.name = name;
         this.location = location;
         this.latitude = latitude;
@@ -28,7 +28,7 @@ public class WaterPoint {
         return waterPointID;
     }
 
-    public vowaterPointID setwaterPointID(String waterPointID) {
+    public void setwaterPointID(String waterPointID) {
         this.waterPointID = waterPointID;
     }
 
@@ -36,15 +36,15 @@ public class WaterPoint {
         return name;
     }
 
-    public vowaterPointID setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getocation() {
+    public String getLocation() {
         return location;
     }
 
-    public vowaterPointID setLocation(String location) {
+    public void setLocation(String location) {
         this.location = location;
     }
 
@@ -52,7 +52,7 @@ public class WaterPoint {
         return latitude;
     }
 
-    public vowaterPointID setLatitude(String latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 
@@ -60,7 +60,7 @@ public class WaterPoint {
         return longitude;
     }
 
-    public vowaterPointID setLongitude(String longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
@@ -68,7 +68,7 @@ public class WaterPoint {
         return capacity;
     }
 
-    public vowaterPointID setCapacity(String capacity) {
+    public void  setCapacity(String capacity) {
         this.capacity = capacity;
     }
 }

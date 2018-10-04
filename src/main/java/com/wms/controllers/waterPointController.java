@@ -1,7 +1,7 @@
 package com.wms.controllers;
 
-import com.djamware.react.models.WaterPoint;
-import com.djamware.react.repositories.WaterPointRepository;
+import com.wms.models.WaterPoint;
+import com.wms.repositories.waterPointRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
