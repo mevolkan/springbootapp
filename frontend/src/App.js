@@ -23,6 +23,7 @@ class App extends Component {
   render() {
     return (
       <div class="container">
+
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
@@ -36,6 +37,7 @@ class App extends Component {
                 <tr>
                   <th>Name</th>
                   <th>Location</th>
+                  <th>Capacity</th>
                 </tr>
               </thead>
               <tbody>
@@ -43,6 +45,7 @@ class App extends Component {
                   <tr>
                     <td><Link to={`/show/${c.id}`}>{c.name}</Link></td>
                     <td>{c.location}</td>
+                    <td>{c.capacity}</td>
                   </tr>
                 )}
               </tbody>

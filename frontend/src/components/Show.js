@@ -33,11 +33,11 @@ class Show extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              waterpoint details
+              Waterpoint Details
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> waterpoints</Link></h4>
+            <h4><Link to="/"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> All Waterpoints</Link></h4>
             <dl>
               <dt>Name:</dt>
               <dd>{this.state.waterpoint.name}</dd>
