@@ -51,19 +51,19 @@ class Create extends Component {
               </div>
               <div class="form-group">
                 <label for="title">location:</label>
-                <input type="text" class="form-control" name="location" value={location} onChange={this.onChange} placeholder="location" />
+                <input type="text" class="form-control" name="location" value={location} onChange={this.onChange} placeholder="Location" />
               </div>
               <div class="form-group">
                 <label for="author">latitude:</label>
-                <input type="text" class="form-control" name="latitude" value={latitude} onChange={this.onChange} placeholder="latitude" />
+                <input type="text" class="form-control" name="latitude" value={latitude} onChange={this.onChange} placeholder="Latitude" />
               </div>
               <div class="form-group">
                 <label for="published_date">longitude:</label>
-                <input type="text" class="form-control" name="longitude" value={longitude} onChange={this.onChange} placeholder="longitude Number" />
+                <input type="text" class="form-control" name="longitude" value={longitude} onChange={this.onChange} placeholder="Longitude " />
               </div>
               <div class="form-group">
                 <label for="publisher">capacity:</label>
-                <input type="capacity" class="form-control" name="capacity" value={capacity} onChange={this.onChange} placeholder="capacity location" />
+                <input type="capacity" class="form-control" name="capacity" value={capacity} onChange={this.onChange} placeholder="Capacity " />
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>

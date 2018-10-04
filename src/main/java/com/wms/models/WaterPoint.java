@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "waterPoints")
 public class WaterPoint {
     @Id
-    String waterPointID;
+    String id;
     String name;
     String location;
     String latitude;
@@ -24,12 +24,12 @@ public class WaterPoint {
         this.capacity = capacity;
     }
 
-    public String getwaterPointID() {
-        return waterPointID;
+    public String getId() {
+        return id;
     }
 
-    public void setwaterPointID(String waterPointID) {
-        this.waterPointID = waterPointID;
+    public void Id(String id) {
+        this.id = id;
     }
 
     public String getName() {

@@ -1,7 +1,7 @@
 package com.wms.controllers;
 
 import com.wms.models.WaterPoint;
-import com.wms.repositories.waterPointRepository;
+import com.wms.repositories.WaterPointRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Optional;
 
 @RestController
-public class waterPointController {
+public class WaterPointController {
 
     @Autowired
-    waterPointRepository waterPointRepository;
+    WaterPointRepository waterPointRepository;
 
     @RequestMapping(method=RequestMethod.GET, value="/waterPoints")
     public Iterable<WaterPoint> waterpoint() {

@@ -28,9 +28,9 @@ class Edit extends Component {
   onSubmit = (e) => {
     e.preventDefault();
 
-    const { name, location, latitude, longitude, longitude, capacity } = this.state.waterpoint;
+    const { name, location, latitude, longitude, capacity } = this.state.waterpoint;
 
-    axios.put('/waterpoints/'+this.props.match.params.id, { name, location, latitude, longitude, longitude, capacity })
+    axios.put('/waterpoints/'+this.props.match.params.id, { name, location, latitude, longitude, capacity })
       .then((result) => {
         this.props.history.push("/show/"+this.props.match.params.id)
       });
