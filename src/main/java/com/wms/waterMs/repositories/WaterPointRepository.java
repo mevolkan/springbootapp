@@ -1,6 +1,6 @@
-package com.wms.repositories;
+package com.wms.waterMs.repositories;
 
-import com.wms.models.WaterPoint;
+import com.wms.waterMs.models.WaterPoint;
 import org.springframework.data.repository.CrudRepository;
 
 public interface WaterPointRepository extends CrudRepository<WaterPoint, String> {

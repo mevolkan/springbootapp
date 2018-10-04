@@ -1,7 +1,7 @@
-package com.wms.controllers;
+package com.wms.waterMs.controllers;
 
-import com.wms.models.WaterPoint;
-import com.wms.repositories.WaterPointRepository;
+import com.wms.waterMs.models.WaterPoint;
+import com.wms.waterMs.repositories.WaterPointRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,19 +16,19 @@ public class WaterPointController {
     @Autowired
     WaterPointRepository waterPointRepository;
 
-    @RequestMapping(method=RequestMethod.GET, value="/waterPoints")
+    @RequestMapping(method=RequestMethod.GET, value="/waterpoints")
     public Iterable<WaterPoint> waterpoint() {
         return waterPointRepository.findAll();
     }
 
-    @RequestMapping(method=RequestMethod.POST, value="/waterPoints")
+    @RequestMapping(method=RequestMethod.POST, value="/waterpoints")
     public WaterPoint save(@RequestBody WaterPoint waterpoint) {
         waterPointRepository.save(waterpoint);
 
         return waterpoint;
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="/waterPoints/{id}")
+    @RequestMapping(method=RequestMethod.GET, value="/waterpoints/{id}")
     public Optional<WaterPoint> show(@PathVariable String id) {
         return waterPointRepository.findById(id);
     }
@@ -51,7 +51,7 @@ public class WaterPointController {
         return c;
     }
 
-    @RequestMapping(method=RequestMethod.DELETE, value="/waterPoints/{id}")
+    @RequestMapping(method=RequestMethod.DELETE, value="/waterpoints/{id}")
     public String delete(@PathVariable String id) {
         Optional<WaterPoint> optWaterPoint = waterPointRepository.findById(id);
         WaterPoint waterpoint = optWaterPoint.get();

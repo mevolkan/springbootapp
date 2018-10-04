@@ -1,9 +1,9 @@
-package com.wms.models;
+package com.wms.waterMs.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "waterPoints")
+@Document(collection = "waterpoints")
 public class WaterPoint {
     @Id
     String id;
