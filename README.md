@@ -55,9 +55,9 @@ This how it loks like
 
 ![The landing page](screenshots/landing.png "Landing Page")
 
-![Editing](screenshots/edit.png "Editing a water point")
+![Update](screenshots/new.png "Adding a water point")
 
-![Update](screenshots/update.png "Updating a water point")
+![Editing](screenshots/edit.png "Editing a water point")
 
 ![Individual](screenshots/individual.png "individual water point")
 
