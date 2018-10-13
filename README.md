@@ -53,13 +53,13 @@ The front end will be served via http://127.0.0.1:8080
 This how it loks like 
 
 
-![The landing page](screenshot/landing.png?raw=true "Landing Page")
+![The landing page](screenshot/landing.png "Landing Page")
 
-![Editing](screenshot/edit.png?raw=true "Editing a water point")
+![Editing](screenshot/edit.png "Editing a water point")
 
-![Update](screenshot/update.png?raw=true "Updating a water point")
+![Update](screenshot/update.png "Updating a water point")
 
-![Individual](screenshot/individual.png?raw=true "individual water point")
+![Individual](screenshot/individual.png "individual water point")
 
 
 ## Built With
