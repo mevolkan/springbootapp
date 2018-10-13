@@ -53,13 +53,13 @@ The front end will be served via http://127.0.0.1:8080
 This how it loks like 
 
 
-![The landing page](screenshot/landing.png "Landing Page")
+![The landing page](screenshots/landing.png "Landing Page")
 
-![Editing](screenshot/edit.png "Editing a water point")
+![Editing](screenshots/edit.png "Editing a water point")
 
-![Update](screenshot/update.png "Updating a water point")
+![Update](screenshots/update.png "Updating a water point")
 
-![Individual](screenshot/individual.png "individual water point")
+![Individual](screenshots/individual.png "individual water point")
 
 
 ## Built With
@@ -76,9 +76,3 @@ Feel free to contribute and improve on it
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
